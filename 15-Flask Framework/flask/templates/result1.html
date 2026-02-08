@@ -1,0 +1,17 @@
+<html>
+<h2>
+    Final Result
+</h2>   
+<body>
+   
+        {% for key, value in result.items() %}
+            <tr>
+                {# Display each key-value pair in a table ro #}
+                <h2>{{ key }}</h2>
+                <h2>{{ value }}</h2>
+            </tr>
+            {% endfor %}
+
+    
+</body> 
+</html>
